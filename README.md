@@ -20,6 +20,10 @@ Floresta Aleatória e Floresta Extremamente Aleatória;
 Gradient Tree Boosting;
 Rede Neural Profunda (Multi-camadas de perceptron).
 
+Diretórios:
+
+No diretório principal, encontram-se os módulos usados para gerar os dados e fornecer funções convenientes para treinar os modelos. No diretório 'obtencao_hiperparametros' são apresentados todos os modelos submetidos ao processo de validação cruzada, nesse diretório encontram-se os melhores hiperparâmetros para treinamento dos modelos. Ainda, é possível encontrar neste último diretório mencionado, o RMSE e o R^2 dos modelos avaliados. No diretório 'melhores_modelos' estão os modelos com maiores pontuações de R^2 e menores RMSE, além disso neste diretório há análises gráficas e uma discussão mais minuciosa sobre os resultados. No diretório 'dados_supercon_murilo' estão as bases de dados usadas no treinamento dos modelos de machine learning. 
+
 
 in English:
 
@@ -40,7 +44,8 @@ Forests of randomized trees;
 Gradient Tree Boosting;
 Deep Neural Network  (Multi-layer Perceptron).
 
+Directories:
 
-
+In the main directory are the modules used to generate the data and provide convenient functions for training the models. In the 'obtencao_hiperparametros' directory, all models submitted to the cross-validation process are presented, in this directory are the best hyperparameters for training the models. Also, it is possible to find in this last mentioned directory, the RMSE and R^2 of the evaluated models. In the 'melhores_modelos' directory are the models with the highest R^2 scores and the lowest RMSE, in addition to this directory there are graphical analyzes and a more detailed discussion of the results. In the 'dados_supercon_murilo' directory are the databases used in the training of machine learning models.
 
 
