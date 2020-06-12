@@ -1,4 +1,4 @@
-# Modelos de Machine Learning - Um estudo da predição de temperatura trítica de supercondutores.
+# Modelos de Machine Learning - Um estudo da predição de temperatura crítica de supercondutores.
 
 Trabalho de graduação para o curso de Engenharia Física da Escola de Engenharia de Lorena da USP. 
 Tema: Avaliação de modelos de machine learning (ML) na predição da temperatura crítica de supercondutores.
