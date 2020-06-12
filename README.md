@@ -1,12 +1,15 @@
 # supercondutividade_machine_learning
+
 Trabalho de graduação para o curso de Engenharia Física da Escola de Engenharia de Lorena da USP. 
-Tema: Avaliação de modelos de machine learning na predição da temperatura crítica de supercondutores, através de suas fórmulas químicas.
+Tema: Avaliação de modelos de machine learning na predição da temperatura crítica de supercondutores.
 
 
 Este trabalho busca explorar modelos de aprendizado de máquina para predizer a temperatura crítica de supercondutores.
-Os dados explorados aqui, foram construidos por um módulo em Python (TCC_supercon_dados.ipynb).
-Foi construido também, um módulo (TCC_supercon_funcoes_apoio_ML.py) com funções que auxiliam 
+A predição é feita sobre dados estatísticos calculados a partir da fórmula química dos supercondutores, seguindo os mesmos passos do artigo encontrado em https://www.researchgate.net/publication/324077979_A_Data-Driven_Statistical_Model_for_Predicting_the_Critical_Temperature_of_a_Superconductor . 
+Os dados explorados aqui, foram construídos por um módulo em Python (supercon_dados.py).
+Foi construído também um módulo (supercon_funcoes_apoio_ML.py) com funções que auxiliam 
 o processo de treinamento e obtenção de hiperparâmetros dos modelos.
+
 Os scripts estão comentados em portugues e eles abordam o passo a passo usado para treinar e analizar os modelos. 
 Os modelos usados são: 
 
@@ -22,8 +25,9 @@ Rede Neural Profunda (Multi-camadas de perceptron).
 
 Diretórios:
 
-No diretório principal, encontram-se os módulos usados para gerar os dados e fornecer funções convenientes para treinar os modelos. No diretório 'obtencao_hiperparametros' são apresentados todos os modelos submetidos ao processo de validação cruzada, nesse diretório encontram-se os melhores hiperparâmetros para treinamento dos modelos. Ainda, é possível encontrar neste último diretório mencionado, o RMSE e o R^2 dos modelos avaliados. No diretório 'melhores_modelos' estão os modelos com maiores pontuações de R^2 e menores RMSE, além disso neste diretório há análises gráficas e uma discussão mais minuciosa sobre os resultados. No diretório 'dados_supercon_murilo' estão as bases de dados usadas no treinamento dos modelos de machine learning. 
+Na pasta 'dados_supercon_murilo' estão os dados usados para treinar os modelos de machine learning. Os dados neste diretório foram construídos a partir do módulo 'supercon_dados.py'. Na pasta 'exploracao_dados' está um breve estudo dos dados usados no treinamento dos modelos. Na pasta 'obtencao_hiperparametros' encontram-se o levantamento dos melhores hipeparâmetros dos modelos com base no processo de validação cruzada. Na pasta 'melhores_modelos' encontram-se os melhores modelos para o problema proposto, para eles foram feitas análises mais completas. 
 
+Os módulos em Python requeridos para reproduzir os scripts são: pandas; numpy; re; datetime; os; sklearn; seaborn; matplotlib; tensorflow; tensorflow_docs.
 
 in English:
 
