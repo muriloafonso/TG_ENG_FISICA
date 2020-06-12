@@ -1,7 +1,7 @@
 # supercondutividade_machine_learning
 
 Trabalho de graduação para o curso de Engenharia Física da Escola de Engenharia de Lorena da USP. 
-Tema: Avaliação de modelos de machine learning na predição da temperatura crítica de supercondutores.
+Tema: Avaliação de modelos de machine learning (ML) na predição da temperatura crítica de supercondutores.
 
 
 Este trabalho busca explorar modelos de aprendizado de máquina para predizer a temperatura crítica de supercondutores.
@@ -29,14 +29,24 @@ Na pasta 'dados_supercon_murilo' estão os dados usados para treinar os modelos 
 
 Os módulos em Python requeridos para reproduzir os scripts são: pandas; numpy; re; datetime; os; sklearn; seaborn; matplotlib; tensorflow; tensorflow_docs.
 
-in English:
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+English:
+
+
+Final work for the Physical Engineering course at the Lorena Engineering School at USP. Theme: Evaluation of machine learning (ML) models in predicting critical temperature of superconductors.
+
 
 This work seeks to explore machine learning models to predict the critical temperature of superconductors.
-The data explored here, were built by a Python module (TCC_supercon_dados.ipynb).
-A module was built (TCC_supercon_funcoes_apoio_ML.py) with functions that help
-the process of training and obtaining hyperparameters of the models
+The prediction is made on statistical data calculated from the chemical formula of the superconductors, following the same steps as the article found at https://www.researchgate.net/publication/324077979_A_Data-Driven_Statistical_Model_for_Predicting_the_Critical_Temperature_of_a_Superconductor.
+The data explored here, were built by a Python module (supercon_dados.py).
+A module was also built (supercon_funcoes_apoio_ML.py) with functions that help
+the process of training and obtaining hyperparameters of the models.
+
 The scripts are commented in Portuguese and they address the step by step used to train and analyze the models. 
-The models used are:
+
+The ML models used are:
 
 Ordinary Least Squares;
 Ridge regression;
@@ -50,6 +60,7 @@ Deep Neural Network  (Multi-layer Perceptron).
 
 Directories:
 
-In the main directory are the modules used to generate the data and provide convenient functions for training the models. In the 'obtencao_hiperparametros' directory, all models submitted to the cross-validation process are presented, in this directory are the best hyperparameters for training the models. Also, it is possible to find in this last mentioned directory, the RMSE and R^2 of the evaluated models. In the 'melhores_modelos' directory are the models with the highest R^2 scores and the lowest RMSE, in addition to this directory there are graphical analyzes and a more detailed discussion of the results. In the 'dados_supercon_murilo' directory are the databases used in the training of machine learning models.
+In the 'data_supercon_murilo' folder are the data used to train the machine learning models. The data in this directory was built from the module 'supercon_dados.py'. In the folder 'exploracao_dados' there is a brief study of the data used in the training of the models. In the folder 'obtencao_hiperparametros' there is a survey of the best hyperparameters of the models based on the cross-validation process. The 'best_models' folder contains the best models for the proposed problem, for which more complete analyzes were made.
 
 
+The Python modules required to reproduce the scripts are: pandas; numpy; re; datetime; os; sklearn; seaborn; matplotlib; tensorflow; tensorflow_docs.
