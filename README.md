@@ -1,4 +1,4 @@
-# Avaliação de modelos de machine learning na predição de temperaturas críticas de supercondutores
+# Implementação de modelos de machine learning para predição de temperaturas críticas de supercondutores
 
 Trabalho de graduação para o curso de Engenharia Física da Escola de Engenharia de Lorena da USP. 
 Tema: Avaliação de modelos de machine learning (ML) na predição da temperatura crítica de supercondutores.
