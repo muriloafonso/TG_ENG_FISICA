@@ -13,7 +13,7 @@ o processo de treinamento e obtenção de hiperparâmetros dos modelos.
 Os scripts estão comentados em portugues e eles abordam o passo a passo usado para treinar e analizar os modelos. 
 Os modelos usados são: 
 
-Regressão linear simples;
+Regressão linear múltipla;
 Ridge regression;
 Lasso;
 Elastic-Net;
