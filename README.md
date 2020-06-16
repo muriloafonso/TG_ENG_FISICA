@@ -17,7 +17,7 @@ Regressão linear múltipla;
 Ridge regression;
 Lasso;
 Elastic-Net;
-Máquina de Vetores de Suporte;
+Máquinas de Vetores de Suporte;
 Árvore de Decisão para regressão;
 Floresta Aleatória e Floresta Extremamente Aleatória;
 Gradient Tree Boosting;
